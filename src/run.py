@@ -1,4 +1,8 @@
-from src.app import app
+import importlib
+
+moduleName = input('Enter module name:')
+importlib.import_module(moduleName)
+#from src.app import app
 
 __author__ = 'jslvtr'
 
