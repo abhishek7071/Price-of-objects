@@ -1,5 +1,9 @@
 from flask import Flask, render_template
-from src.common.database import Database
+#from src.common.database import Database
+import importlib
+
+moduleName = input('Enter module name:')
+importlib.import_module(moduleName)
 
 __author__ = 'jslvtr'
 
